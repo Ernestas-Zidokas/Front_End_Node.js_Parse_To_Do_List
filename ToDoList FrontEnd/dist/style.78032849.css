@@ -1,0 +1,28 @@
+#list {
+  position: relative;
+}
+.item1,
+.item2,
+.checkedItem {
+  text-align: center;
+  width: 200px;
+  height: 20px;
+  border: 1px solid black;
+  background: lightgray;
+  margin-bottom: 5px;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.checkedItem {
+  background: green;
+}
+
+#logout {
+  position: absolute;
+  top: -80px;
+  left: 400px;
+}
+
+
+/*# sourceMappingURL=/style.78032849.css.map */

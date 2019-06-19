@@ -1,0 +1,19 @@
+{
+  "name": "todolist-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf public build dist",
+    "build": "npm run clean && parcel build ./src/index.html ./src/login.html ./src/list.html --out-dir build --public-url ./ --no-source-maps",
+    "dev": "npm run clean && parcel ./src/index.html ./src/login.html ./src/list.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.2"
+  }
+}
