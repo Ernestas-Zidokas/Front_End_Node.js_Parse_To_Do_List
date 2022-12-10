@@ -9,7 +9,7 @@
   "author": "Ernestas Zidokas",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "parse-server": "^3.4.4"
   }
 }
